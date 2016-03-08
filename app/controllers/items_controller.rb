@@ -9,6 +9,7 @@ class ItemsController < ApplicationController
                                   :response_group => 'Medium' , 
                                   :country => 'jp')
       @amazon_items = response.items
+      #以下追加
     end
   end
 
