@@ -1,6 +1,9 @@
 <% content_for :head do %>
+  <title><%= @user.name %> - monolist</title>
+  <meta name="description" content="<%=  @user.name %>のモノページ。Hanakoの欲しいモノ、持ってるモノを表示しています。" />
   <meta property="og:title" content="<%= @user.name %> - monolist" />
   <meta property="og:description" content="<%=  @user.name %>のモノページ。Hanakoの欲しいモノ、持ってるモノを表示しています。" />
+  
 <% end %>
 
 
