@@ -68,3 +68,23 @@ header {
     margin-top: 10px;
   }
 }
+
+//追加分
+.rank_area {
+  position: relative;
+}
+.rank {
+  display: block;
+  position: absolute;
+  top: 190px;
+  left: 10px;
+  color: #fff;
+  background-color: rgba(0,0,0,0.7);
+  border-radius: 5px;
+  padding: 8px;
+}
+.ranking_point {
+  font-size: 1.3rem;
+  font-size: 15px;
+  color: #fff;
+}
